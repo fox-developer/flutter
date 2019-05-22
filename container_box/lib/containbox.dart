@@ -5,8 +5,14 @@ class Containbox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.greenAccent,
-      child: Center(
-        child: Text('Hello Flutter', style: TextStyle(fontSize: 40.0)),
+      child: Column(
+        children: <Widget>[
+          Text('Hello Flutter 1'),
+          Text('Hello Flutter 2'),
+          Text('Hello Flutter 3'),
+          Text('Hello Flutter 4'),
+          Text('Hello Flutter 5'),
+        ],
       ),
     );
   }
